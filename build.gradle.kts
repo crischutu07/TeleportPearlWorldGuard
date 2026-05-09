@@ -9,14 +9,14 @@ repositories {
 }
 
 dependencies {
-  compileOnly("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")
+  compileOnly("org.spigotmc:spigot-api:1.21.11-R0.1-SNAPSHOT")
   // last compatible Java 17 WorldGuard API
-  compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.7")
+  compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.16")
 }
 
 
 java {
-  toolchain.languageVersion = JavaLanguageVersion.of(17)
+  toolchain.languageVersion = JavaLanguageVersion.of(21)
 }
 
 tasks {
