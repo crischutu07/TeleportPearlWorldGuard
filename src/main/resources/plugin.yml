@@ -1,0 +1,10 @@
+name: 'TeleportPearlWorldGuard'
+version: '${version}'
+description: "${description}"
+main: dev.crischutu07.TeleportPearlWorldGuard.Main
+api-version: '1.18'
+depend:
+  - WorldGuard
+softdepend:
+  - FastAsyncWorldEdit
+  - WorldEdit
