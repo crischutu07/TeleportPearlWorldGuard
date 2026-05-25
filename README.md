@@ -9,6 +9,8 @@ worldguard plugin for managing pearl landing entry (useful for prevent players t
 
 # uhh how does this work..?
 this plugin only works if you're in a defined region and not `__global__`
+
+## them flags >:3
 there's 2 flags called `enderpearl-entry` and `enderpearl-exit`
 
 `enderpearl-entry` manages the pearl that's about to land on its region, if disable then any pearls lands on it, then it will not teleport the player assosiated with that pearl.
