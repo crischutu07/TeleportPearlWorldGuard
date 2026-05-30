@@ -11,7 +11,7 @@ repositories {
 dependencies {
   compileOnly("org.spigotmc:spigot-api:26.1.2-R0.1-SNAPSHOT")
   // last compatible Java 17 WorldGuard API
-  compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.16")
+  compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.17")
 }
 
 
